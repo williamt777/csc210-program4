@@ -1,7 +1,7 @@
 import java.util.List;
 
 /**
- * This interface models a directed graph for CSC 210, Spring 2020.
+ * This interface models a undirected graph for CSC 210, Spring 2020.
  * Source: Sedgewick's "EdgeWeightedGraph", algs4.cs.princeton.edu/43mst
  * 
  * Your implementation will include a ctor to create a graph, and toString()
@@ -38,5 +38,11 @@ public interface Graph210 {
      * @return Returns a list of edges connected to the vertex
      */
     List<Edge210> edges(int v);
+
+    /**
+     * Returns a list of all edges in the graph.
+     * @return Returns a list of all edges; never null
+     */
+    List<Edge210> allEdges();
 
 }
