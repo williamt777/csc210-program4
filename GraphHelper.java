@@ -4,7 +4,7 @@
  * It's also a place where I can share more P4 Helper code.
  * 
  * @author Prof Bill, Cole P, Dev T, Luis G, Jason E
- * @version 0.1
+ * @version 0.2
  */
 public class GraphHelper {
     /**
@@ -23,4 +23,16 @@ public class GraphHelper {
         return null;
     } 
 
+    /**
+     * Returns true if two graphs are equal.
+     * Graph edges are normalized (aka, changed) by this method.
+     * Once normalized, equal graphs will have exactly equal edges.
+     * 
+     * @param g1 Graph one
+     * @param g2 Graph two
+     * @return Returns true if they are equal
+     */
+    public static boolean compareGraphs( Graph210 g1, Graph210 g2) {
+        return false;
+    }
 }
